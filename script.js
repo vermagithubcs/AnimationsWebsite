@@ -25,30 +25,28 @@ tl.from(".main-center .center2 img",{
 },"-=0.5")
 tl.from(".icon img",{
     opacity:0,
-    y:30,
-    stagger:0.2,
     duration:0.5
 })
 }
 animationPage();
 
-var tl2 = gsap.timeline({
-    scrollTrigger:{
-        trigger:".section1",
-        scroller:"body",
-        start:"top 50%",
-        end:"top 0",
-        scrub:2,
-    }
-});
-tl2.from(".services",{
-    y:-30,
-    opacity:0
-})
-tl2.from("#box-container #box1",{
-    x:-300,
-    opacity:0,
-    stagger:0.3,
-    delay:0.1,
-    duration:0.1
-})
+// var tl2 = gsap.timeline({
+//     scrollTrigger:{
+//         trigger:".section1",
+//         scroller:"body",
+//         start:"top 50%",
+//         end:"top 0",
+//         scrub:2,
+//     }
+// });
+// tl2.from(".services",{
+//     y:-30,
+//     opacity:0
+// })
+// tl2.from("#box-container #box1",{
+//     x:-300,
+//     opacity:0,
+//     stagger:0.3,
+//     delay:0.1,
+//     duration:0.1
+// })
